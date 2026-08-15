@@ -45,3 +45,38 @@ header button{
 header button:active{
     transform: scale(0.9);
 }
+item {
+	display: flex;
+	flex-direction: column;
+    position: relative;
+	height: 185px;
+	overflow: hidden;
+}
+items{
+    display: flex;
+    gap: 9px;
+    margin-left: 18px;
+}
+item img {
+	height: 185px;
+	aspect-ratio: 1 / 1.2;
+	object-fit: cover;
+}
+item p {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	padding: 0px;
+	margin: 0px;
+	backdrop-filter: blur(21px);
+	color: white;
+	font-size: 12px;
+    transition: 0.2s;
+    transform: translateY(20px);
+	padding: 3px 0px;
+}
+item:hover p{
+    transform: translateY(0px);
+}
