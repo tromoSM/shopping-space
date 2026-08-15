@@ -1,0 +1,47 @@
+@font-face {
+    font-family: inter;
+    src: url("assets/InterVar.ttf");
+}
+*{
+font-family: inter;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	color: #1a1a1a;
+	background: #ffffff1c;
+    justify-content: space-between;
+	height: 50px;
+	backdrop-filter: blur(10px);
+}
+header left,header right{
+    display: flex;
+	align-items: center;
+	gap: 9px;
+}
+header img{
+    border-radius: 50px;
+	height: 50px;
+}
+header [title]{
+  font-weight: 703;
+	font-size: 22px;
+}
+header button{
+  border-radius: 50px;
+  border: none;
+  padding: 6px 10px;
+  background: #ffcddd;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+header button:active{
+    transform: scale(0.9);
+}

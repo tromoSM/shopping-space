@@ -1,0 +1,13 @@
+{
+    "last_updated":"08/14/2026",
+    "items":[
+        {
+            "name":"example",
+            "price":1500,
+            "images":[
+                "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1747253556-screenshot-2025-05-14-at-4-12-07-pm-6824f91d70ae4.png?crop=0.989xw:0.768xh;0.00801xw,0.0785xh&resize=980:*"
+            ],
+            "description":"example"
+        }
+    ]
+}
