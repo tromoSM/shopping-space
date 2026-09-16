@@ -80,3 +80,13 @@ item p {
 item:hover p{
     transform: translateY(0px);
 }
+filler {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 145px;
+	background: #e7e7e7;
+	font-size: 46px;
+	color: #b3b3b3;
+}

@@ -1,21 +1,35 @@
 {
-    "last_updated":"08/14/2026",
-    "items":[
-        {
-            "name":"example",
-            "price":1500,
-            "images":[
-                "./inventory/images/item%20(3).jpeg"
-            ],
-            "description":"example"
-        },
-        {
-            "name":"test",
-            "price":5000,
-            "images":[
-                "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1747253556-screenshot-2025-05-14-at-4-12-07-pm-6824f91d70ae4.png?crop=0.989xw:0.768xh;0.00801xw,0.0785xh&resize=980:*"
-            ],
-            "description":"example"
-        }
-    ]
+   "last_updated": "9/17/2026",
+   "items": [
+      {
+         "name": "test normal",
+         "price": 1500,
+         "images": [
+            "./inventory/images/item%20(3).jpeg"
+         ],
+         "description": "example"
+      },
+      {
+         "name": "test external image",
+         "price": 5000,
+         "images": [
+            "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1747253556-screenshot-2025-05-14-at-4-12-07-pm-6824f91d70ae4.png?crop=0.989xw:0.768xh;0.00801xw,0.0785xh&resize=980:*"
+         ],
+         "description": "example"
+      },
+      {
+         "name": "test no image",
+         "price": 67000,
+         "description": "abc",
+         "images": [
+            "[path:inventory]item%20(a5).jpeg"
+         ]
+      },
+      {
+         "name": "test empty image list",
+         "price": 67000,
+         "description": "abc",
+         "images": []
+      }
+   ]
 }
