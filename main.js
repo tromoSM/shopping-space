@@ -1,4 +1,8 @@
 window.addEventListener('DOMContentLoaded',function(){
+    autopage=new URLSearchParams(window.location.search)
+    if(autopage.get('item')){
+        window.openpage({id:autopage.get('item')},true)
+    }
     document.querySelectorAll('[contact]').forEach(contact=>{
         contact.addEventListener('click',function(){
             alert('test')
@@ -33,6 +37,9 @@ window.addEventListener('DOMContentLoaded',function(){
                     let name=document.createElement('p')
                     name.innerText=item.name
 
+                    itemd.addEventListener('click',function(){
+                        window.openpage({id:index+1},false)
+                    })
                     itemd.append(im,name)
                     itemA.append(itemd)
                 })

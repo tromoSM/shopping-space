@@ -1,5 +1,7 @@
 {
    "last_updated": "9/17/2026",
+   "currency":"$",
+   "oldrate":1.5,
    "items": [
       {
          "name": "test normal",
@@ -7,7 +9,34 @@
          "images": [
             "./inventory/images/item%20(3).jpeg"
          ],
-         "description": "example"
+         "features":{
+               "size":["20x8.5cm (1:18 Scale)","20x10 (2.1 Scale)"],
+               "design":"6-grid shaped tray",
+               "battery":"rechargeable lithium battery",
+               "volume":"300ml",
+               "material":"wood"
+         },
+         "colors":[
+            "red",
+            "green",
+            "blue",
+            "aqua",
+            "orange",
+            "white",
+            "transparent"
+         ],
+         "delivery":{
+            "fee":350,
+            "duration":"2-5 working days",
+            "from":"china",
+            "company":"shopping space delivery service"
+         },
+         "description": "example",
+         "limited_stock":true,
+         "return_policy":{
+            "text":"100% free return",
+            "duration":"2 weeks"
+         }
       },
       {
          "name": "test external image",
